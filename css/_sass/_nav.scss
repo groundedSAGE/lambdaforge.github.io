@@ -1,0 +1,29 @@
+nav {
+	text-align: right;
+	padding-top: 2em;
+
+	a {
+		position: relative;
+		display: inline-block;
+
+		&:after {
+			position: absolute;
+			height: 3px;
+			bottom: -5px;
+			left: 0;
+			right: 0;
+			content: "";
+			background: rgba(#000, .1);
+			border-radius: 10px;
+			transition: background .2s ease-in-out;
+		}
+
+		&:hover::after {
+			background: $accent-color;
+		}
+	}
+
+	a + a {
+		margin-left: 2em;
+	}
+}

@@ -1,0 +1,35 @@
+@media (min-width: 540px) {
+	.row {
+		display: flex;
+		flex-wrap: nowrap;
+
+		> .col { flex: 1 }
+
+		.col + .col {
+			margin-top: 0;
+			margin-left: 2em;
+		}
+
+		&.-no-gutter {
+			.col + .col { margin-left: 0 }
+		}
+	}
+}
+
+.col + .col {
+	margin-top: 2em;
+}
+
+.table {
+	display: table;
+	width: 100%;
+
+	&.-fixed {
+		table-layout: fixed;
+	}
+}
+
+.table-col {
+	display: table-cell;
+	vertical-align: middle;
+}

@@ -1,0 +1,124 @@
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 2em;
+	box-shadow: 0px 5px 10px rgba(#7a85a6, .1);
+	// box-shadow: 0px 5px 10px rgba(#000, .05);
+	border: 1px solid #dce7f7;
+	font-size: 1.4rem;
+	position: relative;
+
+	> .card-header {
+		margin-bottom: 2em;
+		color: #4A4A4A;
+		text-align: center;
+
+		> .name {
+
+		}
+
+		img.avatar {
+			width: 128px;
+			height: 128px;
+			border-radius: 50%;
+			border: 5px solid #dce7f7;
+		}
+
+		p {
+			margin-top: 0;
+			color: #A4A4A4;
+		}
+	}
+
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	tr {
+		padding: .5em 1em;
+		color: #4A4A4A;
+	}
+
+	td {
+		border-bottom: 1px dotted #D8D8D8;
+		vertical-align: top;
+		padding: .5em .5em;
+
+		&:first-of-type {
+			color: $accent-color;
+			text-align: center;
+		}
+
+		&:nth-of-type(2) {
+			font-weight: bold;
+		}
+
+		&:last-of-type {
+			font-style: italic;
+			color: #CDCDCD;
+			text-align: right;
+		}
+	}
+}
+
+.postcard {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 2em;
+	border: 1px solid #dce7f7;
+	box-shadow: 0px 10px 20px rgba(#7a85a6, .25);
+	position: relative;
+
+	.table-col {
+		// vertical-align: top;
+
+		&:last-of-type {
+			border-left: 1px solid #d2cfd2;
+			padding-left: 2em;
+			padding-bottom: 4em;
+
+			p {
+				border-bottom: 1px dotted #d2cfd2;
+			}
+		}
+	}
+
+	p + p {
+		margin-top: 0;
+	}
+
+	.stamp {
+		width: 64px;
+		height: 64px;
+		margin-left: auto;
+		margin-right: 0;
+		border: 1px dotted #d2cfd2;
+		margin-bottom: 2em;
+	}
+
+	.postcard-heading {
+		display: inline-block;
+		position: relative;
+		margin-bottom: 2em;
+
+		&:after {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -.5em;
+			width: 100%;
+			content: "";
+			background: $accent-color;
+			height: 3px;
+			border-radius: 25px;
+		}
+	}
+
+	> .contact-button {
+		position: absolute;
+		right: 25px;
+		bottom: 0;
+		transform: translateY(50%);
+	}
+}
