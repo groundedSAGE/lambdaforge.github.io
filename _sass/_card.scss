@@ -20,6 +20,11 @@
 			border: 5px solid #dce7f7;
 		}
 
+		i.avatar {
+			font-size: 128px;
+			line-height: 1;
+		}
+
 		p {
 			margin-top: 0;
 			color: #A4A4A4;
@@ -49,12 +54,6 @@
 		&:nth-of-type(2) {
 			font-weight: 500;
 		}
-
-		&:last-of-type {
-			font-style: italic;
-			color: #CDCDCD;
-			text-align: right;
-		}
 	}
 }
 
@@ -68,8 +67,6 @@
 	position: relative;
 
 	.table-col {
-		// vertical-align: top;
-
 		&:last-of-type {
 			border-left: 1px solid #d2cfd2;
 			padding-left: 2em;
@@ -97,7 +94,6 @@
 	.postcard-heading {
 		display: inline-block;
 		position: relative;
-		margin-bottom: 2em;
 
 		&:after {
 			position: absolute;
@@ -125,6 +121,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
 	border-radius: 4px;
 	padding: 15px;
+	background-color: #fff;
 	font-size: 1.6rem;
 
 	> header {
@@ -154,4 +151,18 @@
 			left: -20px;
 		}
 	}
+}
+
+.card-item {
+	display: inline-block;
+	border: 1px solid #CFD4E6;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
+	border-radius: 4px;
+	padding: 10px 15px;
+	font-size: 1.8rem;
+	background-color: #fff;
+}
+
+a.card-item {
+	color: #7a85a6;
 }

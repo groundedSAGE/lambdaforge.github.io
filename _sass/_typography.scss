@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
+h1 {
+	font-size: 2.2rem;
+	color: #7a85a6;
+	color: $accent-color;
+}
+
 h6 {
 	text-transform: uppercase;
 	font-size: 1.2rem;
