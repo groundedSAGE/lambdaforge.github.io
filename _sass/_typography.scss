@@ -16,6 +16,18 @@ h1 {
 	color: $accent-color;
 }
 
+h2 {
+	font-size: 2.8rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
 h6 {
 	text-transform: uppercase;
 	font-size: 1.2rem;
@@ -34,18 +46,6 @@ li ~ li {
 
 a {
 	text-decoration: none;
-}
-
-.text-logo {
-	border-radius: 50%;
-	border: 2px solid #fff;
-	color: #fff;
-	display: inline-block;
-	font-size: 3.2rem;
-	height: 64px;
-	line-height: 60px;
-	text-align: center;
-	width: 64px;
 }
 
 .button i, button i,

@@ -3,28 +3,19 @@
 		display: flex;
 		flex-wrap: nowrap;
 
-		> .col {
-			flex: 1;
-
-			&.-flex-2 {
-				flex: 2;
-			}
-		}
+		> .col {flex: 1; }
+		> .col.-flex-2 {flex: 2; }
 
 		.col + .col {
 			margin-top: 0;
 			margin-left: 2em;
 		}
 
-		&.-no-gutter {
-			.col + .col { margin-left: 0 }
-		}
+		&.-no-gutter .col + .col {margin-left: 0; }
 	}
 }
 
-.col + .col {
-	margin-top: 2em;
-}
+.col + .col {margin-top: 2em; }
 
 .table {
 	display: table;
