@@ -12,10 +12,18 @@
 </head>
 
 <body>
-    <nav class="container -large _center">
-        <a href="#Services">Services</a>
-        <a href="#Portfolio">Portfolio</a>
-        <a href="#Contact">Contact</a>
+    <nav>
+        <div class="container -large _center table -fixed">
+            <div class="table-col">
+                <span>Lambdaforge</span>
+            </div>
+
+            <div class="table-col _text-right">
+                <a href="#Services">Services</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a class="button -small -secondary" href="#Contact">Contact</a>
+            </div>
+        </div>
     </nav>
 
     <header class="header">
@@ -31,7 +39,7 @@
     </header>
 
     <section class="services-section">
-        <div class="container -large _center">
+        <div class="container -large _center services-cards">
             <header id="Services" class="section-header">
                 <p>Services</p>
 
@@ -45,7 +53,7 @@
                             <img class="avatar" src="images/kkuehne.jpg" height="128" width="128">
 
                             <h2 class="name">Konrad Kühne</h2>
-                            <p>Full-Stack Clojure Developer</p>
+                            <p>Backend Developer</p>
                         </header>
 
                         <article>
@@ -59,7 +67,7 @@
                                 <tr>
                                     <td><i class="ion-checkmark"></i></td>
                                     <td>Database Architect using Datomic and Replikativ</td>
-                                    <td>Since 2012</td>
+                                    <td></td>
                                 </tr>
 
                                 <tr>
@@ -140,12 +148,30 @@
             </div>
         </div>
 
-        <footer class="services-footer">
-            <div class="container _center table">
-                <span class="table-col">Interested in working with us? Contact us for this and that, etc. ... more text</span>
-                <span class="table-col"><a class="button" href="#">Contact</a></span>
+<!--         <div class="container _center -large row">
+            <div class="col">
+                <h3><i class="ion-gear-a"></i>Feature 1</h3>
+
+                <p>Blablabla</p>
             </div>
-        </footer>
+
+            <div class="col">
+                <h3><i class="ion-gear-a"></i>Feature 1</h3>
+
+                <p>Blablabla</p>
+            </div>
+
+            <div class="col">
+                <h3><i class="ion-gear-a"></i>Feature 1</h3>
+
+                <p>Blablabla</p>
+            </div>
+        </div> -->
+
+        <div class="container _center table">
+            <span class="table-col">Interested in working with us? Contact us for this and that, etc. ... more text</span>
+            <span class="table-col"><a class="button" href="#">Contact</a></span>
+        </div>
     </section>
 
     <section class="customers-section">
@@ -155,15 +181,61 @@
 
                 <h2>Previous Customers</h2>
             </header>
-            <ul>
-                <li>MatchRider</li>
-                <li>GetSafe</li>
-                <li>Brandagram</li>
-                <li>Heidelberg University</li>
-                <li>feeba.me</li>
-                <li>Exzellenzhotel Heidelberg</li>
-                <li>Apfel Gmbh</li>
-            </ul>
+
+            <div class="customer-list row">
+                <div class="col">
+                    <div class="customer-card">
+                        <header>
+                            <h4>MatchRider UG</h4>
+                        </header>
+
+                        <ul>
+                            <li>Android App</li>
+                            <li>Extending their Web Platform</li>
+                        </ul>
+                    </div>
+
+                    <div class="customer-card">
+                        <header>
+                            <h4>GetSafe</h4>
+                        </header>
+                    </div>
+
+                    <div class="customer-card">
+                        <header>
+                            <h4>Brandagram</h4>
+                        </header>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="customer-card">
+                        <header>
+                            <h4>Heidelberg University</h4>
+                        </header>
+                    </div>
+
+                    <div class="customer-card">
+                        <header>
+                            <h4>feeba.me</h4>
+                        </header>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="customer-card">
+                        <header>
+                            <h4>Exzellenzhotel Heidelberg</h4>
+                        </header>
+                    </div>
+
+                    <div class="customer-card">
+                        <header>
+                            <h4>Apfel Gmbh</h4>
+                        </header>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -172,6 +244,8 @@
             <div class="table -fixed">
                 <div class="table-col">
                     <h3 class="postcard-heading">Contact us</h3>
+
+                    <p>We are located in Heidelberg, Germany.</p>
                 </div>
 
                 <div class="table-col">
@@ -218,7 +292,7 @@
                 <h6>Legal</h6>
 
                 <ul class="footer-nav">
-                    <li><a target="_blank" href="https://twitter.com/lambdaforge">Imprint</a></li>
+                    <!-- <li><a target="_blank" href="https://twitter.com/lambdaforge">Imprint</a></li> -->
                 </ul>
                 <p>&copy; 2017 Lambdaforge</p>
             </div>

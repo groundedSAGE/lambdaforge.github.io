@@ -1,0 +1,21 @@
+nav {
+	border-bottom: 1px solid $border-color;
+	padding: 1em;
+	font-size: 1.6rem;
+	font-weight: 500;
+
+	a {
+		position: relative;
+		display: inline-block;
+		color: rgba(#000, .6);
+		transition: color .2s ease-in-out;
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+
+	a + a {
+		margin-left: 2em;
+	}
+}
