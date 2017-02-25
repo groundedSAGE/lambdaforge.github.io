@@ -94,6 +94,12 @@ h6 {
   font-size: 1.2rem;
   letter-spacing: 0.15em; }
 
+a {
+  color: #139cfc;
+  transition: color .2s ease-in-out; }
+  a:hover {
+    color: #78C6FD; }
+
 ul, ol {
   margin-left: 2em; }
 
@@ -115,7 +121,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   .container.-small {
     max-width: 360px; }
   .container.-large {
-    max-width: 1200px; }
+    max-width: 1280px; }
 
 section + section {
   margin-top: 4em; }
@@ -125,7 +131,7 @@ section + section {
   margin-bottom: 100px; }
   .main-row .sidebar {
     font-size: 1.7rem; }
-    @media (min-width: 1200px) {
+    @media (min-width: 1280px) {
       .main-row .sidebar {
         position: fixed;
         width: 380px; } }

@@ -7,7 +7,7 @@
 	}
 
 	&.-large {
-		max-width: 1200px;
+		max-width: 1280px;
 	}
 }
 
@@ -22,7 +22,7 @@ section + section {
 	.sidebar {
 		font-size: 1.7rem;
 
-		@media (min-width: 1200px) {
+		@media (min-width: 1280px) {
 			position: fixed;
 			width: 380px;
 		}

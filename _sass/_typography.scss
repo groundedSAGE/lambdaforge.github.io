@@ -34,6 +34,15 @@ h6 {
 	letter-spacing: 0.15em;
 }
 
+a {
+	color: darken($accent-color, 20);
+	transition: color .2s ease-in-out;
+
+	&:hover {
+		color: $accent-color;
+	}
+}
+
 ul, ol {
 	margin-left: 2em;
 }
