@@ -175,4 +175,10 @@
 
 a.card-item {
 	color: #7a85a6;
+	transition: color .2s ease-in-out, border-color .2s ease-in-out;
+
+	&:hover {
+		color: $accent-color;
+		border-color: $accent-color;
+	}
 }

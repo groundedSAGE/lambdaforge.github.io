@@ -309,7 +309,11 @@ ul.nav-list {
   background-color: #fff; }
 
 a.card-item {
-  color: #7a85a6; }
+  color: #7a85a6;
+  transition: color .2s ease-in-out, border-color .2s ease-in-out; }
+  a.card-item:hover {
+    color: #78C6FD;
+    border-color: #78C6FD; }
 
 button,
 .button {
