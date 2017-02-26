@@ -328,4 +328,27 @@ button,
   .button:active {
     background: #2da6fc; }
 
+table.customers-table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 1.6rem;
+  border-collapse: collapse;
+  border-style: hidden; }
+  table.customers-table td {
+    padding: 2em 1em;
+    border: 1px solid #dce7f7;
+    vertical-align: top; }
+  table.customers-table h4 {
+    text-align: center; }
+  table.customers-table ul {
+    list-style: none; }
+    table.customers-table ul li ~ li {
+      margin-top: 0; }
+    table.customers-table ul li {
+      position: relative; }
+    table.customers-table ul li:before {
+      position: absolute;
+      content: "-";
+      left: -15px; }
+
 /*# sourceMappingURL=style.css.map */

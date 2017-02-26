@@ -1,0 +1,35 @@
+table.customers-table {
+	table-layout: fixed;
+	width: 100%;
+	font-size: 1.6rem;
+	border-collapse: collapse;
+	border-style: hidden;
+
+	td {
+		padding: 2em 1em;
+		border: 1px solid $border-color;
+		vertical-align: top;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	ul {
+		list-style: none;
+
+		li ~ li {
+			margin-top: 0;
+		}
+
+		li {
+			position: relative;
+		}
+
+		li:before {
+			position: absolute;
+			content: "-";
+			left: -15px;
+		}
+	}
+}
