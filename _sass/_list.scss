@@ -6,9 +6,20 @@ table.customers-table {
 	border-style: hidden;
 
 	td {
+		display: block;
 		padding: 2em 1em;
-		border: 1px solid $border-color;
 		vertical-align: top;
+	}
+
+	@media (min-width: 1100px) {
+		td {
+			display: table-cell;
+			border: 1px solid $border-color;
+		}
+	}
+
+	td {
+		border-top: 1px solid $border-color;
 	}
 
 	h4 {
@@ -17,6 +28,7 @@ table.customers-table {
 
 	ul {
 		list-style: none;
+		margin-left: 1em;
 
 		li ~ li {
 			margin-top: 0;
