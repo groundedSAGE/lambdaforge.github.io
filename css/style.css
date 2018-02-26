@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 /* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
-@import url("https://fonts.googleapis.com/css?family=Dosis:400,500,600");
+/* @import url("https://fonts.googleapis.com/css?family=Dosis:400,500,600"); */
 ._center {
   margin-left: auto;
   margin-right: auto; }
@@ -69,11 +69,11 @@ html {
   font-size: 62.5%; }
 
 body {
-  font: 1.8rem/1.6 "Dosis", sans-serif;
+  font: 1.8rem/1.6 "Noto Sans", sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 500; }
 
 h1 {
