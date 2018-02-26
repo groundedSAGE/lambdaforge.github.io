@@ -70,11 +70,12 @@ html {
   font-size: 62.5%; }
 
 body {
-  font: 1.8rem/1.6 "Dosis", sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Dosis', sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 800; }
 
 h1 {
