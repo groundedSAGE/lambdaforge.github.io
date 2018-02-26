@@ -199,7 +199,7 @@ ul.nav-list {
   position: relative; }
   .card > .card-header {
     margin-bottom: 1em;
-    color: #4A4A4A;
+    color: #245866; /* #4A4A4A; */
     text-align: center; }
     .card > .card-header img.avatar {
       width: 128px;
