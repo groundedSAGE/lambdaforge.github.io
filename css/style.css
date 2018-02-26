@@ -217,7 +217,7 @@ ul.nav-list {
     width: 100%; }
   .card tr {
     padding: .5em 1em;
-    color: #4A4A4A; }
+    color: #245866; /* #4A4A4A; */ }
   .card td {
     border-bottom: 1px dotted #D8D8D8;
     vertical-align: top;
