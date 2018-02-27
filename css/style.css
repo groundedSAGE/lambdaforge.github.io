@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+/* @import url('https://fonts.googleapis.com/css?family=Dosis'); */
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css')
 
 ._center {
   margin-left: auto;
@@ -71,7 +72,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Fira Code', sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
