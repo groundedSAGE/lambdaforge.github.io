@@ -137,6 +137,7 @@ section + section {
     @media (min-width: 1280px) {
       .main-row .sidebar {
         position: fixed;
+		margin-top: -100px;
         width: 380px; } }
 
 .section-header {
