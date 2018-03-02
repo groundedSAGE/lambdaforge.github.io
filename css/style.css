@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
 
 ._center {
   margin-left: auto;
@@ -71,11 +73,11 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 800; }
 
 h1 {
@@ -137,7 +139,7 @@ section + section {
     @media (min-width: 1280px) {
       .main-row .sidebar {
         position: fixed;
-		margin-top: -100px;
+		margin-top: -20px;
         width: 380px; } }
 
 .section-header {
