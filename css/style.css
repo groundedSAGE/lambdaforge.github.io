@@ -367,7 +367,17 @@ table.customers-table {
       content: "-";
       left: -15px; }
 
-/*# sourceMappingURL=style.css.map */
+    .impressum-link {
+        color: #73e073;
+        
+    }
+    .impressum-link:hover {
+        color: #239d23;
+        
+    }
+    /*# sourceMappingURL=style.css.map */
+
+
 
 /* replacements
 #73e073 #78C6FD
