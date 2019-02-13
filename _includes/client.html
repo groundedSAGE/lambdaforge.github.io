@@ -1,0 +1,26 @@
+<div class="card-horiz">
+    <figure class="square-red t"></figure>
+    <table>
+        <tr>
+            <td>Client</td>
+            <td>{{ include.title }}</td>
+        </tr>
+        <tr>
+            <td>Project</td>
+            <td>{{ include.description }}</td>
+        </tr>
+        <tr>
+            <td>Tools</td>
+            <td>
+                {% assign tools = include.tools | split: ',' %}
+
+                {% for t in tools %}
+                <i class="icon-m {{ t }}"></i>
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <aside>
+        <a href="{{ include.link }}">link</a>
+    </aside>
+</div>

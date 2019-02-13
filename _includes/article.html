@@ -1,0 +1,30 @@
+<div class="card-horiz">
+  {% assign square_color = 'square-green'  %}
+  {% assign square_name = include.title | slice: 0 | downcase %}
+  {% assign square_class = square_color | append: ' ' | append: square_name %}
+    <figure class="{{ square_class }}"  ></figure>
+    <table>
+        <tr>
+            <td>Title</td>
+            <td>{{ include.title }}</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>{{ include.description }}</td>
+        </tr>
+        <tr>
+            <td>Tags</td>
+            <td>
+                {% assign tags = include.tags | split: ',' %}
+
+                {% for t in tags %}
+                <i class="icon-m {{ t }}"></i>
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <aside>
+      <p>By {{ include.author }}</p>
+        <a href="{{ include.link }}">link</a>
+    </aside>
+</div>
